@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 
 public class Main {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         System.setProperty("webdriver.chrome,driver","");
         WebDriver driver = new ChromeDriver();
         driver.get("https://rahulshettyacademy.com/loginpagePractise/");
